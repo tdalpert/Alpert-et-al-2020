@@ -4,11 +4,7 @@ import os
 import re
 import glob
 
-# % cd C:/Users/taraa/Documents/_lab/PCF11/
 data_files = glob.glob('*.sam')
-# files.append(glob.glob('*_plus.sam'))
-# data = 'C:/Users/taraa/Documents/_lab/PCF11/pcf1_minus.sam'
-
 
 def filter_pA(data):
     c = 0
@@ -27,9 +23,7 @@ def filter_pA(data):
                 filt.write(linefull + '\n')
                 continue
             c += 1
-    #         if c > 100:
-    #             break
-
+ 
             # reset indexF for every line
             indexF = []
 
