@@ -3,9 +3,7 @@ import sys
 import glob
 import re
 
-# %cd C:\\Users\\taraa\\Documents\\_lab\\nanopore\\aid\\four_samples\\trimmed
 files = glob.glob('./*rev2.fastq')
-# print files
 
 complement = {'A': 'T', 'C': 'G', 'G': 'C', 'T': 'A'}
 
